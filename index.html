@@ -85,7 +85,7 @@
               </p>
 
               <!-- Hero-btn -->
-              <button type="button" class="hero-btn">
+              <button type="button" class="hero-btn" data-open-form-modal>
                 Приєднатися до <br />
                 клану
               </button>
@@ -212,6 +212,45 @@
           </ul>
         </section>
       </footer>
+
+      <!-- Модалки -->
+      <div class="div-modal is-hidden" data-info-backdrop>
+        <section class="info-modal">
+          <button class="btn-close-info" type="button" data-close-info-modal>
+            <svg class="modal-svg-close">
+              <use href="./images/Icons/symbol-defs.svg#icon-Close"></use>
+            </svg>
+          </button>
+          <h2 class="info-model">Вітаємо у нашому клані</h2>
+          <p class="info-p">
+            Твій Банші вже в дорозі. <br />
+            Скоро побачимось на Пандорі.
+          </p>
+        </section>
+      </div>
+
+      <div class="backdrop is-hidden" data-form-backdrop>
+        <form class="modal-form">
+          <button class="btn-close" type="button" data-close-form-modal>
+            <svg class="modal-svg-close-one">
+              <use href="./images/Icons/symbol-defs.svg#icon-Close"></use>
+            </svg>
+          </button>
+          <label class="modal-label one"
+            >Ім’я
+            <input type="text" class="modal-input" />
+          </label>
+          <label class="modal-label"
+            >Email
+            <input type="email" class="modal-input" />
+          </label>
+          <button type="button" class="modal-btn" data-open-info-modal>
+            Приєднатися до <br />
+            клану
+          </button>
+        </form>
+      </div>
     </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>

@@ -122,7 +122,7 @@
         <!-- Trailer -->
         <section class="trailer">
           <div class="div-btn">
-            <button type="button" class="trailer-btn">Дивитись трейлер</button>
+            <button type="button" class="trailer-btn" data-open-video>Дивитись трейлер</button>
           </div>
         </section>
 
@@ -214,6 +214,16 @@
       </footer>
 
       <!-- Модалки -->
+      <div class="trailer-modal is-hidden" data-video-backdrop>
+        <section class="info-modal">
+          <button class="btn-close-info" type="button" data-close-video>
+            <svg class="modal-svg-close">
+              <use href="./images/Icons/symbol-defs.svg#icon-Close"></use>
+            </svg>
+          </button>
+          <a href="https://www.youtube.com/watch?v=d9MyW72ELq0&pp=ygUOdHJhaWxlciBhdmF0YXI%3D" class="trailer-a">Дивитись трейлер на Ютуб</a>
+      </div>
+
       <div class="div-modal is-hidden" data-info-backdrop>
         <section class="info-modal">
           <button class="btn-close-info" type="button" data-close-info-modal>

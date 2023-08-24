@@ -629,7 +629,19 @@ color: #141414;
     z-index: 100;
     width: 600px;
     height: 404px;
-    background-image: url('../images/background22.jpg');
+    background-image: url('../images/background-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.info-modal-trailer{
+    padding: 111px 80px 23px;
+    position: fixed;
+    z-index: 100;
+    width: 600px;
+    height: 404px;
+    background-image: url('../images/background-2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
